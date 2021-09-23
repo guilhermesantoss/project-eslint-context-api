@@ -24,7 +24,7 @@ module.exports = {
     'react/jsx-filename-extension': [1, { extensions: ['.jsx', '.js'] }],
     'import/prefer-default-export': 'off',
     'no-param-reassign': 'off',
-    'no-console': ['error', { allow: ['tron'] }],
+    'no-console': 'off',
     'jsx-a11y/no-noninteractive-element-interactions': [
       'error',
       {
