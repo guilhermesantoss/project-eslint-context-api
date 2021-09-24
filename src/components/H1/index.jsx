@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/click-events-have-key-events */
 /* eslint-disable jsx-a11y/no-noninteractive-element-interactions */
 import { useContext, useRef } from 'react';
-import { GlobalContext } from '../../store/contexts/AppContext';
+import { GlobalContext } from '../../store/contexts/GlobalContext';
 
 export const H1 = () => {
   const { state, changeTitle } = useContext(GlobalContext);

@@ -1,14 +1,12 @@
-import { GlobalProvider } from './store/contexts/AppContext';
-import { H1 } from './components/H1';
+import { Routes } from './routes';
+import { GlobalProvider } from './store/contexts/GlobalContext';
 
 import './App.css';
 
 function App() {
   return (
     <GlobalProvider>
-      <div>
-        <H1 />
-      </div>
+      <Routes />
     </GlobalProvider>
   );
 }

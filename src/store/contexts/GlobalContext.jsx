@@ -1,4 +1,3 @@
-/* eslint-disable import/no-extraneous-dependencies */
 /* eslint-disable react/require-default-props */
 import P from 'prop-types';
 import { createContext, useReducer } from 'react';
