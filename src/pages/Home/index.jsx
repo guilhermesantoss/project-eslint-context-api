@@ -1,5 +1,11 @@
-import { H1 } from '../../components/H1';
+import { Posts } from '../../components/Posts';
+import { Title } from '../../components/Title';
 
 export const Home = () => {
-  return <H1 />;
+  return (
+    <>
+      <Title />
+      <Posts />
+    </>
+  );
 };

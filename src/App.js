@@ -1,13 +1,16 @@
 import { Routes } from './routes';
-import { GlobalProvider } from './store/contexts/GlobalContext';
+import { TitleProvider } from './contexts/TitleProvider';
+import { PostsProvider } from './contexts/PostsProvider';
 
 import './App.css';
 
 function App() {
   return (
-    <GlobalProvider>
-      <Routes />
-    </GlobalProvider>
+    <TitleProvider>
+      <PostsProvider>
+        <Routes />
+      </PostsProvider>
+    </TitleProvider>
   );
 }
 
